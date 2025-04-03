@@ -1,3 +1,6 @@
+import requests
+
+
 def foo():
     x = 1 + 2
     # y = 3
@@ -16,6 +19,11 @@ def bar():
 def zar():
     a = "a"
     b = "b"
+    response = requests.get(
+        "https://google.com",
+        timeout=30
+    )
+    print(response)
     if (
         a == "a" and
         b == "b"

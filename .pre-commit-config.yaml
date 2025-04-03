@@ -28,5 +28,5 @@ repos:
     rev: 1.8.3
     hooks:
     -   id: bandit
-        args: [ "-ll" ]
+        args: [ "-ll", "-o", ".bandit.report.txt"]
         files: .py$
