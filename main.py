@@ -11,3 +11,13 @@ def bar():
     # b = "some string"
     # c =  42
     print(foo(), bar())
+
+
+def zar():
+    a = "a"
+    b = "b"
+    if (
+        a == "a" and
+        b == "b"
+    ):
+        print("match!")
