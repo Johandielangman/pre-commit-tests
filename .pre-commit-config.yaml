@@ -9,3 +9,8 @@ repos:
     -   id: trailing-whitespace
     -   id: no-commit-to-branch
         args: ["--pattern", "main", "--pattern", "^(?!feature/|chore/|bug/|hotfix/|release/).*$"]
+-   repo: https://github.com/PyCQA/flake8
+    rev: 7.2.0
+    hooks:
+    -   id: flake8
+        language_version: python3.11
