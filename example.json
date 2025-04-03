@@ -1,1 +1,7 @@
-{"bar": "zar"}
+{
+	"settings": {
+		"height": 10.0,
+		"width": 20.0,
+		"depth": 15.0
+	}
+}
